@@ -1028,40 +1028,40 @@ const char	str_ORP_B[]		PROGMEM = "ORP_B";	//	170
 const char	str_ORP_C[]		PROGMEM = "ORP_C";	//	171
 
 // space in case libelium inserts more sensors. SMART starts at 200.
-const char	str_frame_res1[]        PROGMEM = "";     //  172
-const char	str_frame_res2[]        PROGMEM = ""; 		
-const char	str_frame_res3[]        PROGMEM = ""; 
-const char	str_frame_res4[]        PROGMEM = ""; 
-const char	str_frame_res5[]        PROGMEM = ""; 
-const char	str_frame_res6[]        PROGMEM = ""; 
-const char	str_frame_res7[]        PROGMEM = ""; 
-const char	str_frame_res8[]        PROGMEM = ""; 
-const char	str_frame_res9[]        PROGMEM = ""; 
-const char	str_frame_res10[]       PROGMEM = ""; 
-const char	str_frame_res11[]       PROGMEM = ""; 
-const char	str_frame_res12[]       PROGMEM = ""; 
-const char	str_frame_res13[]       PROGMEM = ""; 
-const char	str_frame_res14[]       PROGMEM = ""; 
-const char	str_frame_res15[]       PROGMEM = ""; 
-const char	str_frame_res16[]       PROGMEM = ""; 
-const char	str_frame_res17[]       PROGMEM = ""; 
-const char	str_frame_res18[]       PROGMEM = ""; 
-const char	str_frame_res19[]       PROGMEM = ""; 
-const char	str_frame_res20[]       PROGMEM = ""; 
-const char	str_frame_res21[]       PROGMEM = ""; 
-const char	str_frame_res22[]       PROGMEM = ""; 
-const char	str_frame_res23[]       PROGMEM = ""; 
-const char	str_frame_res24[]       PROGMEM = ""; 
-const char	str_frame_res25[]       PROGMEM = ""; 
-const char	str_frame_res26[]       PROGMEM = ""; 
-const char	str_frame_res27[]       PROGMEM = ""; 
-const char	str_frame_res28[]       PROGMEM = ""; 
+const char	str_FRAME_RES_1[]       PROGMEM = "";     //  172
+const char	str_FRAME_RES_2[]       PROGMEM = ""; 		
+const char	str_FRAME_RES_3[]       PROGMEM = ""; 
+const char	str_FRAME_RES_4[]       PROGMEM = ""; 
+const char	str_FRAME_RES_5[]       PROGMEM = ""; 
+const char	str_FRAME_RES_6[]       PROGMEM = ""; 
+const char	str_FRAME_RES_7[]       PROGMEM = ""; 
+const char	str_FRAME_RES_8[]       PROGMEM = ""; 
+const char	str_FRAME_RES_9[]       PROGMEM = ""; 
+const char	str_FRAME_RES_10[]      PROGMEM = ""; 
+const char	str_FRAME_RES_11[]      PROGMEM = ""; 
+const char	str_FRAME_RES_12[]      PROGMEM = ""; 
+const char	str_FRAME_RES_13[]      PROGMEM = ""; 
+const char	str_FRAME_RES_14[]      PROGMEM = ""; 
+const char	str_FRAME_RES_15[]      PROGMEM = ""; 
+const char	str_FRAME_RES_16[]      PROGMEM = ""; 
+const char	str_FRAME_RES_17[]      PROGMEM = ""; 
+const char	str_FRAME_RES_18[]      PROGMEM = ""; 
+const char	str_FRAME_RES_19[]      PROGMEM = ""; 
+const char	str_FRAME_RES_20[]      PROGMEM = ""; 
+const char	str_FRAME_RES_21[]      PROGMEM = ""; 
+const char	str_FRAME_RES_22[]      PROGMEM = ""; 
+const char	str_FRAME_RES_23[]      PROGMEM = ""; 
+const char	str_FRAME_RES_24[]      PROGMEM = ""; 
+const char	str_FRAME_RES_25[]      PROGMEM = ""; 
+const char	str_FRAME_RES_26[]      PROGMEM = ""; 
+const char	str_FRAME_RES_27[]      PROGMEM = ""; 
+const char	str_FRAME_RES_28[]      PROGMEM = ""; 
 
 // SMART hydroboard sensors
-const char	str_snw_temp[]          PROGMEM = "SNW_TEMP";   // 200
-const char	str_snw_wind[]          PROGMEM = "SNW_WIND";   // 201
-const char	str_snw_soilmoisture[]  PROGMEM = "SNW_SOILM";  // 202
-const char	str_snw_precipitation[] PROGMEM = "SNW_RAIN";   // 203
+const char	str_SNW_TEMP[]          PROGMEM = "SNW_TEMP";   // 200
+const char	str_SNW_WIND[]          PROGMEM = "SNW_WIND";   // 201
+const char	str_SNW_SOILMOISTURE[]  PROGMEM = "SNW_SOILM";  // 202
+const char	str_SNW_PRECIPITATION[] PROGMEM = "SNW_RAIN";   // 203
 
 /******************************************************************************* 
  * SENSOR_TABLE - Sensor label table
@@ -1300,40 +1300,40 @@ const char* const SENSOR_TABLE[] PROGMEM=
 	str_ORP_B,	//	170
 	str_ORP_C,	//	171
 
-    str_frame_res1,   // reserved for libelium extension     
-    str_frame_res2,        
-    str_frame_res3,        
-    str_frame_res4,        
-    str_frame_res5,        
-    str_frame_res6,        
-    str_frame_res7,        
-    str_frame_res8,        
-    str_frame_res9,        
-    str_frame_res10,       
-    str_frame_res11,       
-    str_frame_res12,       
-    str_frame_res13,       
-    str_frame_res14,       
-    str_frame_res15,       
-    str_frame_res16,       
-    str_frame_res17,       
-    str_frame_res18,       
-    str_frame_res19,       
-    str_frame_res20,       
-    str_frame_res21,       
-    str_frame_res22,       
-    str_frame_res23,       
-    str_frame_res24,       
-    str_frame_res25,       
-    str_frame_res26,       
-    str_frame_res27,       
-    str_frame_res28,
+    str_FRAME_RES_1,   // reserved for libelium extension     
+    str_FRAME_RES_2,        
+    str_FRAME_RES_3,        
+    str_FRAME_RES_4,        
+    str_FRAME_RES_5,        
+    str_FRAME_RES_6,        
+    str_FRAME_RES_7,        
+    str_FRAME_RES_8,        
+    str_FRAME_RES_9,        
+    str_FRAME_RES_10,       
+    str_FRAME_RES_11,       
+    str_FRAME_RES_12,       
+    str_FRAME_RES_13,       
+    str_FRAME_RES_14,       
+    str_FRAME_RES_15,       
+    str_FRAME_RES_16,       
+    str_FRAME_RES_17,       
+    str_FRAME_RES_18,       
+    str_FRAME_RES_19,       
+    str_FRAME_RES_20,       
+    str_FRAME_RES_21,       
+    str_FRAME_RES_22,       
+    str_FRAME_RES_23,       
+    str_FRAME_RES_24,       
+    str_FRAME_RES_25,       
+    str_FRAME_RES_26,       
+    str_FRAME_RES_27,       
+    str_FRAME_RES_28,
 
     // SNW hydro board
-    str_snw_temp,           // 200   
-    str_snw_wind,
-    str_snw_soilmoisture,
-    str_snw_precipitation,  // 203
+    str_SNW_TEMP,           // 200   
+    str_SNW_WIND,
+    str_SNW_SOILMOISTURE,
+    str_SNW_PRECIPITATION,  // 203
 
 };
 
@@ -1585,40 +1585,40 @@ const uint8_t SENSOR_TYPE_TABLE[] PROGMEM=
 	2, // str_ORP_B,	// 170
 	2, // str_ORP_C,	// 171
 
-    0, // str_frame_res1,   // reserved for libelium extension     
-    0, // str_frame_res2,        
-    0, // str_frame_res3,        
-    0, // str_frame_res4,        
-    0, // str_frame_res5,        
-    0, // str_frame_res6,        
-    0, // str_frame_res7,        
-    0, // str_frame_res8,        
-    0, // str_frame_res9,        
-    0, // str_frame_res10,       
-    0, // str_frame_res11,       
-    0, // str_frame_res12,       
-    0, // str_frame_res13,       
-    0, // str_frame_res14,       
-    0, // str_frame_res15,       
-    0, // str_frame_res16,       
-    0, // str_frame_res17,       
-    0, // str_frame_res18,       
-    0, // str_frame_res19,       
-    0, // str_frame_res20,       
-    0, // str_frame_res21,       
-    0, // str_frame_res22,       
-    0, // str_frame_res23,       
-    0, // str_frame_res24,       
-    0, // str_frame_res25,       
-    0, // str_frame_res26,       
-    0, // str_frame_res27,       
-    0, // str_frame_res28,
+    0, // str_FRAME_RES_1,   // reserved for libelium extension     
+    0, // str_FRAME_RES_2,        
+    0, // str_FRAME_RES_3,        
+    0, // str_FRAME_RES_4,        
+    0, // str_FRAME_RES_5,        
+    0, // str_FRAME_RES_6,        
+    0, // str_FRAME_RES_7,        
+    0, // str_FRAME_RES_8,        
+    0, // str_FRAME_RES_9,        
+    0, // str_FRAME_RES_10,       
+    0, // str_FRAME_RES_11,       
+    0, // str_FRAME_RES_12,       
+    0, // str_FRAME_RES_13,       
+    0, // str_FRAME_RES_14,       
+    0, // str_FRAME_RES_15,       
+    0, // str_FRAME_RES_16,       
+    0, // str_FRAME_RES_17,       
+    0, // str_FRAME_RES_18,       
+    0, // str_FRAME_RES_19,       
+    0, // str_FRAME_RES_20,       
+    0, // str_FRAME_RES_21,       
+    0, // str_FRAME_RES_22,       
+    0, // str_FRAME_RES_23,       
+    0, // str_FRAME_RES_24,       
+    0, // str_FRAME_RES_25,       
+    0, // str_FRAME_RES_26,       
+    0, // str_FRAME_RES_27,       
+    0, // str_FRAME_RES_28,
 
     // SNW hydro board
-    2, // str_snw_temp,           // 200   
-    2, // str_snw_wind,
-    1, // str_snw_soilmoisture,
-    0, // str_snw_precipitation,  // 203
+    2, // str_SNW_TEMP,           // 200   
+    2, // str_SNW_WIND,
+    1, // str_SNW_SOILMOISTURE,
+    0, // str_SNW_PRECIPITATION,  // 203
 };
 
 
@@ -1863,40 +1863,40 @@ const uint8_t SENSOR_FIELD_TABLE[] PROGMEM=
 	1, // str_ORP_B,	// 170
 	1, // str_ORP_C,	// 171
 
-    1, // str_frame_res1,   // reserved for libelium extension     
-    1, // str_frame_res2,        
-    1, // str_frame_res3,        
-    1, // str_frame_res4,        
-    1, // str_frame_res5,        
-    1, // str_frame_res6,        
-    1, // str_frame_res7,        
-    1, // str_frame_res8,        
-    1, // str_frame_res9,        
-    1, // str_frame_res10,       
-    1, // str_frame_res11,       
-    1, // str_frame_res12,       
-    1, // str_frame_res13,       
-    1, // str_frame_res14,       
-    1, // str_frame_res15,       
-    1, // str_frame_res16,       
-    1, // str_frame_res17,       
-    1, // str_frame_res18,       
-    1, // str_frame_res19,       
-    1, // str_frame_res20,       
-    1, // str_frame_res21,       
-    1, // str_frame_res22,       
-    1, // str_frame_res23,       
-    1, // str_frame_res24,       
-    1, // str_frame_res25,       
-    1, // str_frame_res26,       
-    1, // str_frame_res27,       
-    1, // str_frame_res28,
+    1, // str_FRAME_RES_1,   // reserved for libelium extension     
+    1, // str_FRAME_RES_2,        
+    1, // str_FRAME_RES_3,        
+    1, // str_FRAME_RES_4,        
+    1, // str_FRAME_RES_5,        
+    1, // str_FRAME_RES_6,        
+    1, // str_FRAME_RES_7,        
+    1, // str_FRAME_RES_8,        
+    1, // str_FRAME_RES_9,        
+    1, // str_FRAME_RES_10,       
+    1, // str_FRAME_RES_11,       
+    1, // str_FRAME_RES_12,       
+    1, // str_FRAME_RES_13,       
+    1, // str_FRAME_RES_14,       
+    1, // str_FRAME_RES_15,       
+    1, // str_FRAME_RES_16,       
+    1, // str_FRAME_RES_17,       
+    1, // str_FRAME_RES_18,       
+    1, // str_FRAME_RES_19,       
+    1, // str_FRAME_RES_20,       
+    1, // str_FRAME_RES_21,       
+    1, // str_FRAME_RES_22,       
+    1, // str_FRAME_RES_23,       
+    1, // str_FRAME_RES_24,       
+    1, // str_FRAME_RES_25,       
+    1, // str_FRAME_RES_26,       
+    1, // str_FRAME_RES_27,       
+    1, // str_FRAME_RES_28,
 
     // SNW hydro board
-    5, // str_snw_temp,           // 200   
-    2, // str_snw_wind,
-    3, // str_snw_soilmoisture,
-    1, // str_snw_precipitation,  // 203
+    5, // str_SNW_TEMP,           // 200   
+    2, // str_SNW_WIND,
+    3, // str_SNW_SOILMOISTURE,
+    1, // str_SNW_PRECIPITATION,  // 203
 };
 
 
@@ -2139,40 +2139,40 @@ const uint8_t DECIMAL_TABLE[] PROGMEM =
 	3, // str_ORP_B,	// 170
 	3, // str_ORP_C,	// 171
 
-    0, // str_frame_res1,   // reserved for libelium extension     
-    0, // str_frame_res2,        
-    0, // str_frame_res3,        
-    0, // str_frame_res4,        
-    0, // str_frame_res5,        
-    0, // str_frame_res6,        
-    0, // str_frame_res7,        
-    0, // str_frame_res8,        
-    0, // str_frame_res9,        
-    0, // str_frame_res10,       
-    0, // str_frame_res11,       
-    0, // str_frame_res12,       
-    0, // str_frame_res13,       
-    0, // str_frame_res14,       
-    0, // str_frame_res15,       
-    0, // str_frame_res16,       
-    0, // str_frame_res17,       
-    0, // str_frame_res18,       
-    0, // str_frame_res19,       
-    0, // str_frame_res20,       
-    0, // str_frame_res21,       
-    0, // str_frame_res22,       
-    0, // str_frame_res23,       
-    0, // str_frame_res24,       
-    0, // str_frame_res25,       
-    0, // str_frame_res26,       
-    0, // str_frame_res27,       
-    0, // str_frame_res28,
+    0, // str_FRAME_RES_1,   // reserved for libelium extension     
+    0, // str_FRAME_RES_2,        
+    0, // str_FRAME_RES_3,        
+    0, // str_FRAME_RES_4,        
+    0, // str_FRAME_RES_5,        
+    0, // str_FRAME_RES_6,        
+    0, // str_FRAME_RES_7,        
+    0, // str_FRAME_RES_8,        
+    0, // str_FRAME_RES_9,        
+    0, // str_FRAME_RES_10,       
+    0, // str_FRAME_RES_11,       
+    0, // str_FRAME_RES_12,       
+    0, // str_FRAME_RES_13,       
+    0, // str_FRAME_RES_14,       
+    0, // str_FRAME_RES_15,       
+    0, // str_FRAME_RES_16,       
+    0, // str_FRAME_RES_17,       
+    0, // str_FRAME_RES_18,       
+    0, // str_FRAME_RES_19,       
+    0, // str_FRAME_RES_20,       
+    0, // str_FRAME_RES_21,       
+    0, // str_FRAME_RES_22,       
+    0, // str_FRAME_RES_23,       
+    0, // str_FRAME_RES_24,       
+    0, // str_FRAME_RES_25,       
+    0, // str_FRAME_RES_26,       
+    0, // str_FRAME_RES_27,       
+    0, // str_FRAME_RES_28,
 
     // SNW hydro board
-    3, // str_snw_temp,           // 200   
-    2, // str_snw_wind,
-    0, // str_snw_soilmoisture,
-    0, // str_snw_precipitation,  // 203
+    3, // str_SNW_TEMP,           // 200   
+    2, // str_SNW_WIND,
+    0, // str_SNW_SOILMOISTURE,
+    0, // str_SNW_PRECIPITATION,  // 203
 
 };
 
