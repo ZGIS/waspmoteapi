@@ -551,6 +551,19 @@
     \brief pH (for Smart Water Ions) measurement type
  */
 
+// SMART Hydro Board
+/*! \def SENSOR_SNW_TEMP
+    \brief Five temperature sensors (1m, 0m, -.25m, -.5m, -.75m )
+ */
+/*! \def SENSOR_SNW_WIND
+    \brief Davis wind vane / speed
+ */
+/*! \def SENSOR_SNW_SOILMOISTURE
+    \brief Three soil moisture sensors (decagon 10HS - -0.25m, -.5m, -.75m)
+ */
+/*! \def SENSOR_SNW_PRECIPITATION
+    \brief Davis rainfall sensor
+ */
  
 // Gases v20
 #define SENSOR_CO	 		0
@@ -783,7 +796,11 @@
 #define SENSOR_ORP_B		170
 #define SENSOR_ORP_C		171
 
-
+// SMART Hydro Board
+#define SENSOR_SNW_TEMP           200
+#define SENSOR_SNW_WIND           201
+#define SENSOR_SNW_SOILMOISTURE   202
+#define SENSOR_SNW_PRECIPITATION  203
 
 
 /// Flash defines //////////////////////////////////////////////////////////////
