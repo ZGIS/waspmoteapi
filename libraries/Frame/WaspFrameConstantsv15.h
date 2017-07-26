@@ -257,8 +257,11 @@
 #define SENSOR_ULTRASOUND				79
 
 
-
-
+// SMART Hydro Board
+#define SENSOR_SNW_TEMP                 200
+#define SENSOR_SNW_WIND                 201
+#define SENSOR_SNW_SOILMOISTURE         202
+#define SENSOR_SNW_PRECIPITATION        203
 
 
 /// Flash defines //////////////////////////////////////////////////////////////
@@ -500,7 +503,22 @@ const char	str_frame_187[]  PROGMEM = "CB_FL";
 const char	str_frame_188[]  PROGMEM = "CB_TP"; 
 const char	str_frame_189[]  PROGMEM = "CB_FP"; 
 
+const char  str_frame_190[]  PROGMEM = ""; 
+const char  str_frame_191[]  PROGMEM = ""; 
+const char  str_frame_192[]  PROGMEM = ""; 
+const char  str_frame_193[]  PROGMEM = ""; 
+const char  str_frame_194[]  PROGMEM = ""; 
+const char  str_frame_195[]  PROGMEM = ""; 
+const char  str_frame_196[]  PROGMEM = ""; 
+const char  str_frame_197[]  PROGMEM = ""; 
+const char  str_frame_198[]  PROGMEM = ""; 
+const char  str_frame_199[]  PROGMEM = ""; 
 
+// SMART hydroboard sensors
+const char  str_frame_200[]  PROGMEM = "SNW_TEMP";   // 200
+const char  str_frame_201[]  PROGMEM = "SNW_WIND";   // 201
+const char  str_frame_202[]  PROGMEM = "SNW_SOILM";  // 202
+const char  str_frame_203[]  PROGMEM = "SNW_RAIN";   // 203
 
 /******************************************************************************* 
  * SENSOR_TABLE - Sensor label table
@@ -701,7 +719,20 @@ const char* const FRAME_SENSOR_TABLE[] PROGMEM=
 	str_frame_187,
 	str_frame_188,
 	str_frame_189,
-	
+    str_frame_190,
+    str_frame_191,
+    str_frame_192,
+    str_frame_193,
+    str_frame_194,
+    str_frame_195,
+    str_frame_196,
+    str_frame_197,
+    str_frame_198,
+    str_frame_199,
+    str_frame_200, 
+    str_frame_201, 
+    str_frame_202, 
+    str_frame_203, 
 };
 	
 	
@@ -942,7 +973,23 @@ const uint8_t FRAME_SENSOR_TYPE_TABLE[] PROGMEM=
 	0,		// 187
 	0,		// 188
 	1,		// 189
-	
+
+    0,      // 190
+    0,      // 191
+    0,      // 192
+    0,      // 193
+    0,      // 194
+    0,      // 195
+    0,      // 196
+    0,      // 197
+    0,      // 198
+    0,      // 199
+
+    // SMART hydroboard sensors
+    2,      // 200 
+    2,      // 201 
+    1,      // 202 
+    0,      // 203 	
 };
 
 
@@ -1179,7 +1226,23 @@ const uint8_t FRAME_SENSOR_FIELD_TABLE[] PROGMEM=
 	1,		// 187
 	1,		// 188
 	1,		// 189	
-	
+
+    1,      // 190
+    1,      // 191
+    1,      // 192
+    1,      // 193
+    1,      // 194
+    1,      // 195
+    1,      // 196
+    1,      // 197
+    1,      // 198
+    1,      // 199
+
+    // SMART hydroboard sensors
+    5,      // 200 
+    2,      // 201 
+    3,      // 202 
+    1,      // 203  	
 };
 	
 	
@@ -1412,7 +1475,23 @@ const uint8_t FRAME_DECIMAL_TABLE[] PROGMEM =
 	0,		// 187
 	0,		// 188
 	0,		// 189
-	
+
+    0,      // 190
+    0,      // 191
+    0,      // 192
+    0,      // 193
+    0,      // 194
+    0,      // 195
+    0,      // 196
+    0,      // 197
+    0,      // 198
+    0,      // 199
+
+    // SMART hydroboard sensors
+    3,      // 200 
+    2,      // 201 
+    0,      // 202 
+    0,      // 203      
 };
 	
 	#endif
